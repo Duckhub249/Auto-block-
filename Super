@@ -848,9 +848,10 @@ Players.PlayerAdded:Connect(function(player)
     player.CharacterAdded:Connect(function(char) task.spawn(function() hookCharacterAnimations(char) end) end)
 end)
 
- ==========================================
+-- ==========================================
 -- 👁‍🗨 VISUAL HITBOX ZONE (อานาเขตบล็อก)
 -- ==========================================
+
 local hitboxVisuals = {}
 
 -- ฟังก์ชันตรวจสอบคณิตศาสตร์ว่าเราอยู่ในกล่องอานาเขตของ Killer หรือไม่
